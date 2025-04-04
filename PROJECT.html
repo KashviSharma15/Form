@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <link rel="stylesheet" href="project.css">
+    
+    <form id="form" onsubmit="n()">
+    <h1><u> project management </u></h1>
+    <label>project name</label>
+    <input type="projectname" placeholder="project name" id="PName" required>
+    <br>
+    <label>assigned to</label>
+    <select id="assigned" name="assigned to">
+        <option value="kashvi sharma"> Kashvi Sharma </option>
+        <option value="tanish sharma"> Tanish Sharma </option>
+        <option value="rohit suri"> Rohit Suri </option>
+        <option value="kriti anand"> Kriti Anand </option>
+    </select>
+        <br>
+        <label id="start date">start date</label>
+        <input type="date" id="st_date" name="start date" required>
+        <br>
+        <label for="end date">end date</label>
+        <input type="date" id="end_date" name="end date" required>
+        <br>
+        <div id="hal">
+<label for="priority" id="priority"> priority</label>
+<input type="radio" value = "high" name = "priority" id = "h"> high
+<input type="radio" value = "average" name = "priority" id = "a"> average
+<input type="radio" value = "low" name = "priority" id = "l"> low
+</div>
+<br>
+<label id="desc">description</label>
+<textarea id = "description" name= "description" placeholder="description" >
+</textarea>
+<br>
+<button type="clear" id="cl" >Clear</button>
+<button type="submit" id="sub" onclick="submitProjectDetails()">Submit</button>
+</form>
+<script src="project.js"></script>
+
+</body>
+</html>

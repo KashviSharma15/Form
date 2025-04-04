@@ -1,0 +1,57 @@
+body{
+    background-image: url("pro.png");
+    background-size: cover;
+    font-family: cursive;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+h1{
+    color: black;
+    text-align: center;
+  
+}
+div{
+    display: inline-block;
+    color: orange;
+}
+label{
+    background-color: orange; 
+    color:black;
+}
+#hal{
+    background-color: orange; 
+    color: black;
+}
+#description{
+    height: 70px;
+    width: 500px;
+}
+button{
+    height: 40px;
+    width: 70px;
+    color:white;
+    background-color: orange; 
+    display: inline-block;
+}
+
+button:hover{
+    border: 2px solid black;
+    font-size: large;
+    color: black;
+   
+ }   
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#sub{
+    margin-top: 20px;
+}
+form{
+    height: 1500px;
+    width: 500px;
+}
